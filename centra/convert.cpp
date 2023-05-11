@@ -14,6 +14,7 @@ int main() {
 	cout <<"hello"<<endl;
 	cout<<"press 1 to convert dollar"<<endl;
 	cout <<"press 2 to convert pounds "<<endl;
+	cout<<"press 3 to convert Euros" <<endl;
 	cin>>a;
 	cout<<"enter amount to be converted"<<endl;
 	cin>>b;
