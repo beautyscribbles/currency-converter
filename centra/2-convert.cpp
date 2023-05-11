@@ -17,30 +17,30 @@ cin >> Money >> Currency;
 
 if(Money > 0 && Currency > 0)
 {
-								            cout << "Alright" << endl;
-									            switch(Currency)
-											            {
-													        case 1:
-															        Result = Money * USD_RUB;
-																        cout << Result << " Rubles in dollar" << endl;
-																	    break;
-																	        case 2:
-																	            Result = Money * EUR_RUB;
-																		            cout << Result << " Rubles in euro" << endl;
-																			        break;
-																				    case 3:
-																				        Result = Money * USD_EUR;
-																					        cout << Result << " Euro in Dollars" << endl;
-																						    break;
-																						        case 4:
-																						            Result = Money * EUR_USD;
-																							            cout << Result << " Dollars in euro" << endl;
-																								        break;
+cout << "Alright" << endl;
+switch(Currency)
+{
+case 1:
+Result = Money * USD_RUB;
+cout << Result << " Rubles in dollar" << endl;
+break;
+        							        case 2:
+Result = Money * EUR_RUB;
+
+cout << Result << " Rubles in euro" << endl;
+break;
+									case 3:
+Result = Money * USD_EUR;
+cout << Result << " Euro in Dollars" << endl;
+break;
+									case 4:
+Result = Money * EUR_USD;
+cout << Result << " Dollars in euro" << endl;
+break;
 																									        }
 										        }
 						    else
-							        {
-									       cout << "Not alright" << endl;
-									           }
-						        return 0;
+							{						    cout << "Not alright" << endl;
+								}
+return 0;
 }
