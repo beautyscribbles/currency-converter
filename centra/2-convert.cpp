@@ -3,17 +3,20 @@
 using namespace std;
 
 int main() {
-	    float USD_RUB = 55.84001;
-	        float EUR_RUB = 60.78989;
-		    float EUR_USD = EUR_RUB / USD_RUB;
-		        float USD_EUR = USD_RUB / EUR_RUB;
-			    float Money = 0;
-			        int Currency = 0;
-				    float Result;
-				        cout << "Convert to some currency: enter 1 rub to usd, 2 rub to eur, 3 eur to usd, 4 usd to eur" << endl;
-					    cin >> Money >> Currency;
-					        if(Money > 0 && Currency > 0)
-							    {
+ float USD_RUB = 55.84001;
+ float EUR_RUB = 60.78989;
+ float EUR_USD = EUR_RUB / USD_RUB;
+ float USD_EUR = USD_RUB / EUR_RUB;
+ float Money = 0;
+ int Currency = 0;
+ float Result;
+
+cout << "Convert to some currency: enter 1 rub to usd, 2 rub to eur, 3 eur to usd, 4 usd to eur" << endl;
+
+cin >> Money >> Currency;
+
+if(Money > 0 && Currency > 0)
+{
 								            cout << "Alright" << endl;
 									            switch(Currency)
 											            {
