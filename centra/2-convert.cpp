@@ -37,10 +37,11 @@ break;
 Result = Money * EUR_USD;
 cout << Result << " Dollars in euro" << endl;
 break;
-																									        }
-										        }
-						    else
-							{						    cout << "Not alright" << endl;
-								}
+	      }
+	 }
+    else
+    {
+	    cout << "Not alright" << endl;
+    }
 return 0;
 }
